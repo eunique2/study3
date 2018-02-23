@@ -1,0 +1,21 @@
+----패키지----
+
+atom-beautify : css, javascript, html 등 줄간격 자동화
+atom-runner : 런타임 실행기 (작동법은 커뮤니티 페이지 참고)
+busy-signal : 실행환경 트래픽 신호기(하단 오른쪽에 생김)
+emmet : 코드 자동완성
+file-icon : 파일확장자명에 맞게 프로젝트 익스플로러의 아이콘제공
+highlight-line : 에디터상 현재 라인 하이라이트
+minimap : 소스코드 미니맵 표시
+platformio-ide-terminal : os별 터미널을 하단에 표시
+highlight-selected : 선택된 블록의 같은 값을 보이게 함
+minimap-highlight-selected : 선택된 블록을 미니맵에서도 표시
+
+----테마----
+atom-monokai : 문법 색깔 좋음
+seti-ui : UI 테마(설정 : 테마칼라-핑크, 컴팩트 모드, display ignored files 만 check!! )
+
+----npm설치
+** 글로벌
+express : 웹서버 프레임웤
+uglify-js : 자바스크립트 파일 용량 최소화
