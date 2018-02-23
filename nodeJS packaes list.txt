@@ -16,6 +16,7 @@ atom-monokai : 문법 색깔 좋음
 seti-ui : UI 테마(설정 : 테마칼라-핑크, 컴팩트 모드, display ignored files 만 check!! )
 
 ----npm설치
-** 글로벌
+underscore : 자바스크립트의 배열 함수 라이브러리
 express : 웹서버 프레임웤
+** 글로벌
 uglify-js : 자바스크립트 파일 용량 최소화
