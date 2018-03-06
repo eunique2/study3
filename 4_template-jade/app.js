@@ -8,6 +8,16 @@ app.set('view engine', 'pug');
 //app.set('views', './4_template-jade/views');
 app.use(express.static('./4_template-jade/public'));
 
+app.get('/form', function(req,res){
+  res.render('form');
+});
+
+app.post('/form_receiver', function(req,res){
+  // console.log(req);
+  var title = req.query.title;
+  var desc = req.query.desc;
+  res.send(title+','+desc);
+});
 
 // routing
 app.get('/', function(req, res) {
