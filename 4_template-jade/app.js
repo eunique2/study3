@@ -4,8 +4,10 @@ var app = express();
 app.locals.pretty = true;
 
 app.set('view engine', 'pug');
-app.set('views', '4_template-jade/views')
-app.use(express.static('4_template-jade/public'));
+// 익스프레스의 약속..  하위 디렉토리 views가 있으면 세팅 생략 가능.
+//app.set('views', './4_template-jade/views');
+app.use(express.static('./4_template-jade/public'));
+
 
 // routing
 app.get('/', function(req, res) {
